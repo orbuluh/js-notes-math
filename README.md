@@ -39,6 +39,16 @@ Then open:
 
 - `http://localhost:3000/my-notes/first-note`
 
+## Math and Plotly
+
+This template supports:
+
+- LaTeX math syntax in MDX (`$...$` and `$$...$$`)
+- fenced code blocks (including `python`)
+- Plotly charts via the `PlotlyChart` MDX component
+
+See `content/math-plotly-demo.mdx` for a working example.
+
 ## Build
 
 ```bash

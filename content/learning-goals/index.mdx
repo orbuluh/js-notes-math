@@ -1,0 +1,68 @@
+---
+title: Learning Goals for Quantitative Finance
+---
+
+# Learning Goals for Quantitative Finance
+
+This roadmap focuses on the mathematical and statistical foundations needed for rigorous time-series modeling, market microstructure analysis, and portfolio decision-making.
+
+## 1. Probability and Statistics
+
+Build fluency in uncertainty quantification and risk measurement.
+
+- Core metrics: expectation, variance, standard deviation, covariance, and correlation.
+- Distributions: normal, pdf/cdf, plus heavy-tailed and skewed alternatives (Student's t, power-law behavior).
+- Parameter calibration: method of moments for matching model moments to empirical data.
+- Inference and testing: t-statistics, maximum likelihood estimation (MLE), and Newey-West standard errors under serial correlation.
+
+## 2. Linear Algebra
+
+Develop matrix-based tools for multi-asset data and factor/risk models.
+
+- Matrix operations: transpose, inverse, pseudoinverse, and vectorized calculations.
+- Eigen-decomposition: eigenvalues/eigenvectors for principal directions of risk.
+- Dimensionality reduction: PCA and SVD for extracting latent statistical factors.
+
+## 3. Time-Series Models and Econometrics
+
+Model dynamics in returns, volatility, and cross-variable interactions.
+
+- Autoregressive structure: AR(1) and related models for signal decay and persistence.
+- Conditional heteroskedasticity: GARCH-family models for volatility clustering.
+- Multivariate dependence: VAR for joint dynamics of returns, volume, and related variables.
+
+## 4. Stochastic Processes and Dynamic Systems
+
+Learn process-level models for high-frequency behavior and latent states.
+
+- State-space models and Kalman filtering for hidden-state estimation.
+- Point processes: Hawkes processes for self-exciting event clustering.
+- Continuous-time dynamics: Brownian motion, Ornstein-Uhlenbeck processes, and Ito calculus.
+- Market efficiency baseline: martingale intuition for price evolution.
+
+## 5. Calculus and Optimization
+
+Translate model outputs into executable portfolio and trading decisions.
+
+- Mean-variance optimization (MVO) via quadratic programming.
+- Constrained optimization with Lagrangian methods.
+- Variational methods and Euler-Lagrange equations for continuous-time execution problems.
+- Transform methods (Laplace/Fourier) for solving distributional and convolution-related equations.
+
+## 6. Numerical Methods and Computation
+
+Use computation when closed-form solutions are unavailable.
+
+- Simulation and approximation for complex financial systems.
+- Numerical optimization and gradient-based search.
+- Solvers for matrix and differential equations (including Riccati-type equations).
+- Robust implementation habits: stability checks, convergence diagnostics, and reproducibility.
+
+## Milestone Outcome
+
+By completing this roadmap, you should be able to:
+
+- Build statistically defensible forecasting and risk models.
+- Connect theoretical process models to observable market data.
+- Implement optimization-based allocation or execution workflows.
+- Validate model behavior with numerical experiments and diagnostics.
